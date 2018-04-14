@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/chenjinghao/CLionProjects/arithmeticTest/InsertionSort.h
+iostream
+-
+algorithm
+-
+
+/Users/chenjinghao/CLionProjects/arithmeticTest/MaxHeap.h
+
+/Users/chenjinghao/CLionProjects/arithmeticTest/MergeSort.h
+iostream
+-
+algorithm
+-
+InsertionSort.h
+/Users/chenjinghao/CLionProjects/arithmeticTest/InsertionSort.h
+
+/Users/chenjinghao/CLionProjects/arithmeticTest/SortTestHelper.h
+iostream
+-
+ctime
+-
+cassert
+-
+string
+-
+
+/Users/chenjinghao/CLionProjects/arithmeticTest/main.cpp
+iostream
+-
+SortTestHelper.h
+/Users/chenjinghao/CLionProjects/arithmeticTest/SortTestHelper.h
+InsertionSort.h
+/Users/chenjinghao/CLionProjects/arithmeticTest/InsertionSort.h
+MergeSort.h
+/Users/chenjinghao/CLionProjects/arithmeticTest/MergeSort.h
+MaxHeap.h
+/Users/chenjinghao/CLionProjects/arithmeticTest/MaxHeap.h
+
