@@ -39,6 +39,16 @@ int main() {
 
     MaxHeap<int> maxHeap = MaxHeap<int>(100);
     cout<<maxHeap.size()<<endl;
+
+    srand(time(NULL));
+    for (int i = 0; i < 30; ++i) {
+        maxHeap.insert(rand()%100);
+    }
+    maxHeap.testPrint();
+
+    maxHeap.extractMax();
+
+    maxHeap.testPrint();
     return 0;
 }
 
